@@ -1,0 +1,81 @@
+@import "fonts";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+
+    --color-body: 241 245 249; /* slate-100 */
+    --color-dark-body: 15 23 42; /* slate-900 */
+    --color-header: 28 38 69; /* sky-950 */
+    --color-dark-header: 15 23 42; /* slate-900 */
+    --color-footer: 203 213 225; /* slate-300 */
+    --color-dark-footer: 15 23 42; /* slate-900 */
+
+
+
+    --color-themepicker-icon: 148 163 184; /* slate-400 */
+    --color-themepicker-icon-bg: 255 255 255; /* white */
+    --color-dark-themepicker-icon-bg: 51 65 85; /* slate-700 */
+    --color-themepicker-bg: 255 255 255; /* white */
+    --color-dark-themepicker-bg: 30 41 59; /* slate-800 */
+    --color-themepicker-text-bg-hover: 241 245 249; /* slate-100 */
+    --color-dark-themepicker-text-bg-hover: 15 23 42; /* slate-900 */
+
+    --color-menu-bg: 255 255 255; /* white */
+    --color-dark-menu-bg: 30 41 59; /* slate-800 */
+    --color-menu-text-bg-hover: 241 245 249; /* slate-100 */
+    --color-dark-menu-text-bg-hover: 15 23 42; /* slate-900 */
+
+    --color-menu-button-icon: 148 163 184; /* slate-400 */
+    --color-menu-button-bg: 51 65 85; /* slate-700 */
+    --color-menu-button-bg-hover: 30 41 59; /* slate-800 */
+
+    --color-hero-blend: 186 230 253; /* sky-200 */
+    --color-dark-hero-blend: 71 85 105; /* slate-600 */
+
+    --color-heading: 15 23 42; /* slate-900 */
+    --color-heading-inverted: 255 255 255; /* white */
+    --color-text-hero: 226 232 240; /* slate-200 */
+    --color-text-hero-inverted: 186 230 253; /* sky-200 */
+    --color-text: 71 85 105; /* slate-600 */
+    --color-text-inverted: 148 163 184; /* slate-400 */
+    --color-text-muted: 100 116 139; /* slate-500 */
+    --color-menu: 255 255 255; /* white */
+    --color-menu-hover: 203 213 225; /* slate-300 */
+    --color-menu-inverted: 226 232 240; /* slate-200 */
+    --color-menu-inverted-hover: 203 213 225; /* slate-300 */
+    --color-submenu: 51 65 85; /* slate-700 */
+    --color-submenu-inverted: 148 163 184; /* slate-400 */
+
+    --font-sans: "Inter var";
+  }
+
+  .theme-juergenschadek {
+    --color-primary: 0 209 219; /* #00D1DB */
+    --color-secondary: 101 117 118; /* #657576 */
+
+    --font-sans: "Inter var";
+    --font-heading: "Gotham Ultra", sans-serif;
+    --font-accent: "Hugme", serif;
+  }
+
+  .theme-lighthouse {
+    --color-primary: 29 78 216; /* blue-700 */
+    --color-secondary: 219 234 254; /* blue-100 */
+    --color-body: 243 244 246; /* gray-100 */
+    --color-header: 17 24 39; /* gray-900 */
+    --color-text: 107 114 128; /* gray-500 */
+    --color-text-muted: 191 219 254; /* blue-200 */
+    --color-heading: 17 24 39; /* gray-900 */
+    --color-heading-hover: 75 85 99; /* gray-600 */
+    --color-heading-inverted: 255 255 255; /* white */
+    --color-heading-inverted-hover: 209 213 219; /* gray-300 */
+    --color-menu-button-bg: 31 41 55; /* gray-800 */
+    --color-menu-button-bg-hover: 55 65 81; /* gray-700 */
+    --color-hero-blend: 55 65 81; /* gray-700 */
+    --color-top-header: 50 23 42; /* slate-900 */
+    --font-sans: "Inter var";
+  }
+}
